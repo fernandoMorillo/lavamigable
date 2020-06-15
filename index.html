@@ -11,122 +11,155 @@
     <title>Lavamigable</title>
 </head>
 <body>
-<nav>
+<header>
     <div id="logo">
         <img src="assents/img/logos/logo_lavamigable_color.png" alt="" width="200">
     </div>
-</nav>
-<header>
-    <div class="h-100 contenedor-header">
-        <div class="contenedor-principal h-100">
-            <div class="cont">
-                <h1>TITULAR</h1>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            odit officia praesentium qui quis quo ratione, reiciendis reprehenderit sed tempore tenetur totam ullam vero!
-            </span>
+</header>
+<nav>
+    <div class="h-100 contenedor-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="contenedor-principal h-100">
+                        <div class="cont">
+                            <h1>TITULAR</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                odit officia praesentium qui quis quo ratione, reiciendis reprehenderit sed tempore
+                                tenetur totam ullam vero!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="pos-formulario h-100">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombres y apellidos</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="correoEle">Correo</label>
+                                <input type="email" class="form-control" id="correoEle">
+                            </div>
+                            <div class="form-group">
+                                <label for="celular">Celular</label>
+                                <input type="number" class="form-control" id="celular">
+                            </div>
+                            <div class="mov-btn">
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Cotizar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="pos-formulario contenedor-principal h-100">
-            <form>
-                <div class="form-group">
-                    <label for="name">Nombres y apellidos</label>
-                    <input type="text" class="form-control" id="name">
-                </div>
-                <div class="form-group">
-                    <label for="correoEle">Correo</label>
-                    <input type="email" class="form-control" id="correoEle">
-                </div>
-                <div class="form-group">
-                    <label for="celular">Celular</label>
-                    <input type="number" class="form-control" id="celular">
-                </div>
-                <div class="mov-btn">
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Cotizar</button>
-                </div>
-
-            </form>
-        </div>
     </div>
-</header>
+</nav>
 <section class="quienes-somos">
-    <div class="title2">
-        <h2 class="titulo">Quienes somos</h2>
-    </div>
     <div class="cont-somos">
         <div class="container px-lg-5">
+            <div class="title2 pb-5">
+                <h2 class="titulo">Quienes somos</h2>
+            </div>
             <div class="row mx-lg-n5">
-                <div class="col py-3 px-lg-5">
-                    <img src="assents/img/imagenempresa.png" alt="" width="500" height="250">
+                <div class="col-12 col-md-6 py-3 px-lg-5 d-flex justify-content-end">
+                    <img class="cont-somos__image" src="assents/img/imagenempresa.png" alt="">
                 </div>
-                <div class="col py-3 px-lg-5">
-                 <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
-                Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium dignissim aliquet.
-            </span>
+                <div class="col-12 col-md-6 py-3 px-lg-5 alin-texto">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
+                        Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium
+                        dignissim aliquet.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section class="nuestros-productos">
-    <div class="title2">
-        <h2 class="titulo">Nuestros productos</h2>
-    </div>
-    <div class="cont-productos">
-        <div class="prod-1">
-            <div class="titulo-prod">
-                <h4>PRODUCTO 1</h4>
-            </div>
-            <div class="texto-tarjet">
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
-                    Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium dignissim aliquet.
-                    Nulla nec ex a neque molestie consectetur.
-                </span><br><br>
-            </div>
-            <div class="valor">
-                <span>$120.000</span>
-            </div>
-            <div class="ubi-btn">
-                <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero</button>
-            </div>
+    <div class="container">
+        <div class="title2">
+            <h2 class="titulo">Nuestros productos</h2>
         </div>
-        <div class="prod-2">
-            <div class="titulo-prod2">
-                <h4>PRODUCTO 2</h4>
-            </div>
-            <div class="texto-tarjet2">
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
-                    Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium dignissim aliquet.
-                    Nulla nec ex a neque molestie consectetur.
-                </span><br><br>
-            </div>
-            <div class="valor2">
-                <span>$120.000</span>
-            </div>
-            <div class="ubi-btn2">
-                <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero</button>
+        <div class="cont-productos">
+            <div class="row justify-content-center cont-productos__row">
+                <div class="col-12 col-lg-4 mb-5">
 
-            </div>
-        </div>
+                    <div class="prod-1">
+                        <div class="titulo-prod">
+                            <h4>PRODUCTO 1</h4>
+                        </div>
+                        <div class="texto-tarjet">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend
+                                feugiat.
+                                Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna
+                                pretium dignissim aliquet.
+                                Nulla nec ex a neque molestie consectetur.
+                            </p><br><br>
+                        </div>
+                        <div class="valor">
+                            <span>$120.000</span>
+                        </div>
+                        <div class="ubi-btn">
+                            <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="prod-2">
+                        <div class="titulo-prod2">
+                            <h4>PRODUCTO 2</h4>
+                        </div>
+                        <div class="prod-2__content text-center">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend
+                                feugiat.
+                                Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna
+                                pretium dignissim aliquet.
+                                Nulla nec ex a neque molestie consectetur.
+                            </p>
+                            <div class="prod-2__box">
+                                <div class="texto-tarjet2">
+                                    <br><br>
+                                </div>
+                                <div class="valor2">
+                                    <span>$120.000</span>
+                                </div>
+                                <div class="ubi-btn2">
+                                    <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero
+                                    </button>
 
-        <div class="prod-3">
-            <div class="titulo-prod">
-                <h4>PRODUCTO 3</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="prod-1">
+                        <div class="titulo-prod">
+                            <h4>PRODUCTO 1</h4>
+                        </div>
+                        <div class="texto-tarjet">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend
+                                feugiat.
+                                Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna
+                                pretium dignissim aliquet.
+                                Nulla nec ex a neque molestie consectetur.
+                            </p><br><br>
+                        </div>
+                        <div class="valor">
+                            <span>$120.000</span>
+                        </div>
+                        <div class="ubi-btn">
+                            <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="texto-tarjet">
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
-                    Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium dignissim aliquet.
-                    Nulla nec ex a neque molestie consectetur.
-                </span><br><br>
-            </div>
-            <div class="valor">
-                <span>$120.000</span>
-            </div>
-            <div class="ubi-btn">
-                <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Lo quiero</button>
-            </div>
+
         </div>
     </div>
     <div class="ver-mas">
@@ -134,32 +167,37 @@
     </div>
 </section>
 <section class="contactanos">
-    <div class="cont3">
-        <div class="tamaño">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Ad illo non quas quibusdam, repudiandae sunt! Aliquam amet animi blanditiis cum hic
-                        impedit quaerat quos recusandae repellat sint, suscipit ullam vero!
-                    </span>
-        </div>
-        <div class="btn-contacto">
-            <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Contáctanos</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ad illo non quas quibusdam, repudiandae sunt! Aliquam amet animi blanditiis cum hic
+                    impedit quaerat quos recusandae repellat sint, suscipit ullam vero!
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 d-flex align-items-center">
+                <div class="btn-contacto">
+                    <button type="button" class="btn btn-primary btn-lg btn-blog btn-modif">Contáctanos</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 <section class="nuestro-equipo">
-    <div class="title3">
-        <h2 class="titulo">Nuestro equipo</h2>
-    </div>
     <div class="cont-somos">
         <div class="container px-lg-5">
+            <div class="title2 pt-4">
+                <h2 class="titulo">Nuestro equipo</h2>
+            </div>
             <div class="row mx-lg-n5">
-                <div class="col py-3 px-lg-5">
-                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
-                        Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium dignissim aliquet.
-                    </span>
+                <div class="col-12 col-md-6 py-3 px-lg-5 alin-texto">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus mi at eleifend feugiat.
+                        Integer et sem mattis, pellentesque velit et, maximus arcu. Integer venenatis urna pretium
+                        dignissim aliquet.
+                    </p>
                 </div>
-                <div class="col py-3 px-lg-5">
-                    <img src="assents/img/imagenempresa.png" alt="" width="500" height="250">
+                <div class="col-12 col-md-6 py-3 px-lg-5 d-flex justify-content-start">
+                    <img class="cont-somos__image" src="assents/img/imagenempresa.png" alt="">
                 </div>
             </div>
         </div>
@@ -178,12 +216,12 @@
                 <h5>Nombre</h5>
             </div>
             <div class="info-testimonio">
-                <span>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras luctus mi at eleifend feugiat. Integer et sem mattis,
                     pellentesque velit et, maximus arcu. Integer venenatis urna
                     pretium dignissim aliquet.
-                </span>
+                </p>
             </div>
         </div>
         <div class="test2">
@@ -194,12 +232,12 @@
                 <h5>Nombre</h5>
             </div>
             <div class="info-testimonio">
-                <span>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras luctus mi at eleifend feugiat. Integer et sem mattis,
                     pellentesque velit et, maximus arcu. Integer venenatis urna
                     pretium dignissim aliquet.
-                </span>
+                </p>
             </div>
         </div>
         <div class="test3">
@@ -210,12 +248,12 @@
                 <h5>Nombre</h5>
             </div>
             <div class="info-testimonio">
-                <span>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras luctus mi at eleifend feugiat. Integer et sem mattis,
                     pellentesque velit et, maximus arcu. Integer venenatis urna
                     pretium dignissim aliquet.
-                </span>
+                </p>
             </div>
         </div>
     </div>
@@ -226,14 +264,26 @@
     </div>
     <div class="datos">
         <div class="direccion">
-            <span>Dirección</span>
-            <span>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-                Cras luctus mi at eleifend feugiat.
-            </span>
+            <div class="direccion__content">
+                <span>Dirección</span>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Cras luctus mi at eleifend feugiat.
+                </p>
+            </div>
         </div>
-        <div>
-            <span>Nuestras redes</span>
+        <div class="direccion">
+            <div class="redes__content">
+                <p>Nuestras redes</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Cras luctus mi at eleifend feugiat.
+                </p>
+            </div>
         </div>
     </div>
 </footer>
