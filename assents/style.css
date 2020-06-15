@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#logo {
+    padding-left: 72px;
+}
+
+header {
+    background-image: url("img/banner1.png");
+    width: auto;
+    height: 483px;
+}
+.contenedor-header{
+    display: flex;
+}
+.contenedor-principal {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.cont{
+    padding-left: 120px;
+}
+
+.cont-title h1 {
+    font-size: 64px;
+
+}
+
+.text-titulo span {
+    font-size: 24px;
+}
+
+.pos-formulario {
+    width: 50%;
+}
+
+form {
+    height: 400px;
+    width: 68%;
+    padding: 18px;
+    background: rgba(51, 74, 107, 0.71);
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.pos-formulario form label {
+    font-size: 20px;
+    margin-left: -1px;
+    bottom: -14px;
+}
+button {
+    background: rgba(0, 202, 232, 0.76) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:15px;
+}
+.mov-btn{
+    padding-top: 23px;
+}
+
+.quienes-somos {
+    width: auto;
+    height: 460px;
+}
+
+.title2 {
+    text-align: center;
+    padding-top: 43px;
+    font-size: 21px;
+}
+.titulo::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 164px;
+    background: #0BADC9;
+    margin: 0 auto;
+}
+
+
+.cont-somos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.nuestros-productos {
+    width: auto;
+    height: 658px;
+    background-color: #F0F4F8;
+}
+
+.cont-productos {
+    display: flex;
+    align-items: center;
+    padding-left: 132px;
+    padding-top: 40px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.prod-1 {
+    width: 353px;
+    height: 390px;
+    margin-right: 15px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+.texto-tarjet{
+    width: 352px;
+    text-align: center;
+    padding: 8px;
+}
+.titulo-prod{
+    padding: 26px;
+}
+.ubi-btn{
+    text-align: center;
+}
+.btn-modif{
+    width: 238px;
+    height: 44px;
+}
+.valor{
+    text-align: center;
+    padding: 12px;
+}
+.prod-2 {
+    width: 353px;
+    height: 446px;
+    margin-right: 15px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.texto-tarjet2{
+    width: 356px;
+    text-align: center;
+    padding: 30px;
+}
+.titulo-prod2{
+    padding: 26px;
+}
+.ubi-btn2{
+    text-align: center;
+}
+.btn-modif2{
+    width: 238px;
+    height: 44px;
+}
+.valor2{
+    text-align: center;
+    padding: 5px;
+}
+.prod-3 {
+    width: 353px;
+    height: 390px;
+    left: 186px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.btn-comprar {
+    width: 203px;
+    height: 42px;
+    top: 180px;
+    background: #0BADCA;
+}
+.ver-mas{
+    text-align: center;
+    padding: 10px;
+}
+.ver-mas a{
+    text-decoration: none;
+}
+.contactanos{
+    background-image: url("img/banner2.png");
+    width: auto;
+    height: 257px;
+}
+.cont3{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.tamaño{
+    width: 621px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 56px;
+    color: white;
+}
+.btn-contacto{
+    width: 647px;
+    margin-left: 55px;
+    height: auto;
+    margin-top: 102px;
+}
+.nuestro-equipo{
+    width: auto;
+    height: 538px;
+}
+.title3{
+    text-align: center;
+    padding-top: 43px;
+    font-size: 21px;
+}
+.testimonios{
+    width: auto;
+    height: 522px;
+    background-color: #F0F4F8;
+}
+.conten-testimonios{
+    display: flex;
+    align-items: center;
+}
+.test1{
+    width: 309px;
+    height: 342px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    margin: 26px 65px;
+}
+.test2{
+    width: 309px;
+    height: 342px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    margin: 26px 65px;
+}
+.test3{
+    width: 309px;
+    height: 342px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    margin: 26px 65px;
+}
+.img-testimonio{
+    text-align: center;
+    margin-top: 10px;
+}
+.name-test{
+    text-align: center;
+    margin-top: 7px;
+}
+.info-testimonio{
+    width: 266px;
+    text-align: center;
+    margin-left: 21px;
+}
+footer{
+    width: auto;
+    height: 344px;
+    background: #0BADC9;
+}
+.logo-footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.datos{
+    display: flex;
+ }
+.direccion{
+    width: 50%;
+}
