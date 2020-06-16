@@ -31,11 +31,13 @@ nav {
 h1 {
     font-weight: bold !important;
 }
-#subtexto{
+
+#subtexto {
     font-weight: bold;
     font-size: 19px;
 }
-ul{
+
+ul {
     margin-left: 50px;
     font-weight: bold;
     font-size: 20px;
@@ -48,15 +50,24 @@ ul{
 .pos-formulario {
     width: 100%;
 }
-ul:hover{
+
+ul:hover {
 
 }
+
 form {
     padding: 18px;
     background: rgba(51, 74, 107, 0.71);
     margin-bottom: 15px;
     border-radius: 4px;
     color: #ffffff;
+}
+
+#solicita {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 25px;
 }
 
 .pos-formulario form label {
@@ -74,9 +85,11 @@ button {
     padding-top: 15px;
     border: none !important;
 }
-.bot-cotizar:hover{
+
+.bot-cotizar:hover {
     background-color: #46c600 !important;
 }
+
 .mov-btn {
     padding-top: 23px;
 }
@@ -242,16 +255,19 @@ h4 {
 
 .btn-contacto {
     text-align: center;
+    width: 100%;
 }
 
 .nuestro-equipo {
     width: auto;
     padding: 50px 0;
 }
-.caja-equipo{
+
+.caja-equipo {
     padding-top: 14px;
     margin-top: 50px;
 }
+
 .title3 {
     text-align: center;
     font-size: 21px;
@@ -294,6 +310,14 @@ h4 {
 .info-testimonio {
     width: 100%;
     text-align: center;
+}
+.cotizar {
+    background-color: #ffffff;
+    width: auto;
+    padding: 76px 0;
+}
+.cotizar .container .row .col-12 p {
+    margin-bottom: 0;
 }
 
 footer {
@@ -367,7 +391,9 @@ footer {
         height: 100%;
         padding-bottom: 20px;
     }
-
+    #solicita{
+        font-size: 20px;
+    }
     .prod-2__box {
         padding-top: 0;
     }
@@ -385,10 +411,14 @@ footer {
     }
 
     .btn-modif {
-        width: 141px;
+        width: 179px;
     }
+
     .cont-testimonio__row .col-12:nth-child(3) {
         margin-top: 45px;
+    }
+    .cotizar .container .row .col-12 p {
+        text-align: center;
     }
     .direccion__content {
         width: auto;
